@@ -1,0 +1,16 @@
+.footer {
+  display: grid;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1.5rem;
+  text-align: center;
+  justify-items: center;
+  align-items: center;
+  background: var(--footer_back);
+  color: var(--footer_color);
+  font-size: 0.8rem;
+  padding: auto;
+  transition: all linear 0.25s;
+}

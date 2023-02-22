@@ -1,4 +1,5 @@
 :root {
+  --active_class: blueviolet;
   --navlink: #fff;
   --navlink_hover: dodgerblue;
   --navlink_back: #000;
