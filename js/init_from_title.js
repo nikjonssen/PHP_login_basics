@@ -1,7 +1,7 @@
 function linkCheck(prop) {
   let links = document.querySelectorAll(".navlink");
   links.forEach((x) => {
-    if (x.getAttribute("href") == prop) {
+    if (x.innerHTML == prop) {
       x.classList.add("active");
     } else {
       x.classList.remove("active");
@@ -10,7 +10,7 @@ function linkCheck(prop) {
 }
 
 function initCheck() {
-  let title = window.location.pathname.split("/")[2];
+  let title = document.title;
   linkCheck(title);
 }
 
