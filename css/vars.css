@@ -1,4 +1,7 @@
 :root {
   --navlink: #fff;
   --navlink_hover: dodgerblue;
+  --navlink_back: #000;
+  --footer_color: #fff;
+  --footer_back: #000;
 }

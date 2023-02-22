@@ -12,6 +12,9 @@ function linkCheck(prop) {
 function initCheck() {
   let title = window.location.pathname.split("/")[2];
   linkCheck(title);
+  let date = new Date();
+  let footer = document.querySelector(".footer");
+  footer.innerHTML = `<p>&#169; Copyright reserved ${date.getFullYear()}</p>`;
 }
 
 initCheck();
