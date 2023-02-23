@@ -19,4 +19,12 @@
   display: inline-block;
   width: 2rem;
   height: 2rem;
+  transform: rotate(180deg);
+  opacity: 0.75;
+  transition: all ease-in-out 0.25s;
+}
+
+#brand_logo:hover {
+  opacity: 1;
+  transform: rotate(-180deg);
 }
