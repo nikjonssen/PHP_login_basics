@@ -2,11 +2,24 @@
 @import "vars.css";
 @import "navbar.css";
 @import "footer.css";
+@import "signupform.css";
 
 body {
   box-sizing: border-box;
   width: 100vw;
   height: 100vh;
+}
+
+.main {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  margin: 10%;
+  color: var(--class_main);
+}
+
+.main p {
+  display: block;
 }
 
 a {
