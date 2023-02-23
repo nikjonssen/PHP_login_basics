@@ -13,4 +13,7 @@
   font-size: 0.8rem;
   padding: auto;
   transition: all linear 0.25s;
+  user-select: none;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
 }

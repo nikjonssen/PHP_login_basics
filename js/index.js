@@ -14,7 +14,7 @@ function initCheck() {
   linkCheck(title);
   let date = new Date();
   let footer = document.querySelector(".footer");
-  footer.innerHTML = `<p>&#169; Copyright reserved ${date.getFullYear()}</p>`;
+  footer.innerHTML = `<p>&#169; Copyright ${date.getFullYear()}</p>`;
 }
 
 initCheck();
