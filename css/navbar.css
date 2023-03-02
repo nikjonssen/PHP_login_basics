@@ -8,6 +8,7 @@
 
 .nav_list {
   justify-self: end;
+  text-transform: uppercase;
 }
 
 .logo_link {

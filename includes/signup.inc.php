@@ -18,7 +18,7 @@ if (isset($_POST['signup'])) {
         header("location: ../signup.php?error=invaliduid");
         exit();
     }
-    if (invalidUsername($email) !== false) {
+    if (invalidEmail($email) !== false) {
         header("location: ../signup.php?error=invalidemail");
         exit();
     }
@@ -26,7 +26,7 @@ if (isset($_POST['signup'])) {
         header("location: ../signup.php?error=passunmatch");
         exit();
     }
-    if (uidExists($connection, $uid) !== false) {
+    if (uidExists($connection, $uid, $email) !== false) {
         header("location: ../signup.php?error=uernametaken");
         exit();
     }
