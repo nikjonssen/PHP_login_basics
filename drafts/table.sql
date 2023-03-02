@@ -7,4 +7,4 @@ CREATE TABLE users(
 );
 
 INSERT INTO users (users_name, users_email, users_uid, users_pwd)
-VALUES ("Nik", "nikjonssen@gmail.com", "admin", "password8")
+VALUES ("name", "email", "username", "password")
